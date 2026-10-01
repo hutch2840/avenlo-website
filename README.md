@@ -1,24 +1,17 @@
 # AVENLO Website
 
-The current AVENLO website homepage, prepared for Git/Hostinger deployment.
+AVENLO — 3D Printable Designs & Manufacturing.
 
-## Deploy
-1. Create a **public** GitHub repository named `avenlo-website`.
-2. Upload `index.html` to the repository root.
-3. Copy the repository URL, for example:
-   `https://github.com/YOUR-USERNAME/avenlo-website`
-4. Paste that URL into Hostinger's **Public repository URL** field.
-5. Deploy.
+## Hostinger deployment
 
-## Current site
-- AVENLO premium dark/lime design
-- STL marketplace sections
-- Workshop Bin System
-- Modular Battery Holder
-- AV-08 Centre Form
-- Skateboard Spring
-- STL downloads section
-- PartMade3D manufacturing quote link
-- avenlo.com.au domain references
+This project is prepared as a Vite project for Hostinger's supported framework importer.
 
-The STL buttons are prepared for the future download/checkout system; actual STL files and payment processing still need to be connected.
+1. Create a public GitHub repository named `avenlo-website`.
+2. Upload all files from this folder to the repository root.
+3. In Hostinger, choose **Push your code → Import your Git repository**.
+4. Paste the GitHub repository URL.
+5. Select **Vite** when Hostinger asks for the framework.
+6. Use `npm run build` as the build command if requested.
+7. Use `dist` as the output directory if requested.
+
+The homepage is in `index.html`.
